@@ -4,7 +4,7 @@
     "facing" : "camera",
     "red": 1,
     "green": 1,
-    "blue": 1,
+    "blue": 0,
     "alpha": 1,
     "baseTexture": "/pa/effects/textures/particles/dot.papa"
   },
