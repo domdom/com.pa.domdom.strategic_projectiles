@@ -1,0 +1,20 @@
+{
+  "base_spec": "/pa/ammo/base_shell/base_shell.json",
+  "model": {
+    "filename": ""
+  },
+  "fx_trail": {
+    "filename": "/mod/pa/effects/specs/tank_light_proj.pfx-medium.pfx",
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "damage": 120,
+  "splash_damage": 0,
+  "splash_radius": 0,
+  "initial_velocity": 150.0,
+  "max_velocity": 150.0,
+  "lifetime": 2
+}

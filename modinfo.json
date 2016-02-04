@@ -1,0 +1,16 @@
+{
+    "context": "client",
+    "identifier": "com.pa.domdom.strategic_projectiles",
+    "display_name": "Resplendent Palpable Ammunition Projectile Mod",
+    "description": "Sup-com style strategic zoom bullet particles.",
+    "author": "dom314",
+    "forum": "",
+    "icon": "",
+    "product": [
+        "Titans"
+    ],
+    "version": "0.1.0",
+    "priority": 100,
+    "build": "89755",
+    "date": "2016/02/04"
+}
