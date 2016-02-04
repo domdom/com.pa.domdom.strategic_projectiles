@@ -12,8 +12,8 @@
     "display_name" : "Resplendent Palpable Ammunition Projectile Mod",
     "description" : "Sup-com style strategic zoom bullet particles.",
     "author" : "dom314",
-    "forum" : "",
-    "icon" : "",
+    "forum" : "https://forums.uberent.com/threads/rel-client-resplendent-palpable-ammunition-projectile-mod.71354/",
+    "icon" : "http://i.imgur.com/oZFVsfV.png?1",
     "product" : ["Titans"],
     "version" : "0.1.0",
     "priority": 100
