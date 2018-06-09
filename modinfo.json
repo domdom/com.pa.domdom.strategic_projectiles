@@ -9,6 +9,10 @@
     "product": [
         "Titans"
     ],
+    "category": [
+        "gameplay",
+        "effects"
+    ],
     "version": "0.1.0",
     "priority": 100,
     "build": "110069",
