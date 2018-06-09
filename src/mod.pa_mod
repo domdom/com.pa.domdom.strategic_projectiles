@@ -15,6 +15,7 @@
     "forum" : "https://forums.uberent.com/threads/rel-client-resplendent-palpable-ammunition-projectile-mod.71354/",
     "icon" : "http://i.imgur.com/oZFVsfV.png?1",
     "product" : ["Titans"],
+    "category": ["effects", "gameplay"],
     "version" : "0.1.0",
     "priority": 100
   },
