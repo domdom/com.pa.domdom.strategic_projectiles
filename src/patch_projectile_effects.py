@@ -4,11 +4,15 @@ import utils
 import os
 import copy
 
+def load_json(path):
+	with open(path, 'r') as f:
+		return pajson.load(f)
+
 PREFER_EX1 = True
 PA_MEDIA_DIR = utils.pa_media_dir()
 BACKUP_DIR = os.path.join(PA_MEDIA_DIR, '../_media')
 
-base_dot = pajson.loadf('dot.json')
+base_dot = load_json('dot.json')
 
 dot_small = copy.deepcopy(base_dot)
 dot_small['sizeX'] = 1
@@ -55,7 +59,7 @@ _cache = {}
 def load(path):
 	path = _get_source_file_path(path, [BACKUP_DIR, PA_MEDIA_DIR])
 	if path not in _cache:
-		_cache[path] = pajson.loadf(path)
+		_cache[path] = load_json(path)
 	return _cache[path]
 
 
@@ -119,7 +123,7 @@ for unit_file in unit_list['units']:
 					if ammo['damage'] <= 24:
 						size = "small"
 					elif ammo['damage'] <= 200:
-						size = "medium" 
+						size = "medium"
 					elif ammo['damage'] <= 400:
 						size = "large"
 					else:
